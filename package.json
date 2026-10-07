@@ -1,0 +1,13 @@
+{
+  "name": "fashionhub-aws-3tier",
+  "version": "1.0.0",
+  "description": "FashionHub Inventory Application hosted on AWS 3-Tier Architecture (ALB + EC2 + RDS MySQL)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  }
+}
